@@ -4,8 +4,8 @@
 
 To use on Linux/MacOS:
 
-`git clone https://github.com/Naksh-Rathore/.dotfiles ~/.config/nvim`
-`rm -rf ~/.config/nvim`
+`git clone https://github.com/Naksh-Rathore/.dotfiles ~/.config/nvim`<br />
+`rm -rf ~/.config/nvim/.git`<br />
 `nvim`
 
 My base for the Neovim configuration was the repo https://github.com/Golf0ned/.dotfiles if you couldn't tell already (it is a fork)
