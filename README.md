@@ -2,6 +2,12 @@
 
 ## Neovim
 
+## Dependencies
+
+* Nerd fonts
+* Neovim (of course)
+* Git
+
 To use on Linux/MacOS:
 
 `git clone https://github.com/Naksh-Rathore/.dotfiles ~/.config/nvim`<br />
