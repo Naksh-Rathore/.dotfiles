@@ -16,7 +16,8 @@ return {
             "hrsh7th/cmp-nvim-lsp",
         },
         config = function()
-            -- TODO: add LSP keymaps
+            vim.keymap.set("n", "<C-k>", vim.lsp.buf.signature_help, opts)
+            vim.keymap.set("n", "K", vim.lsp.buf.hover, opts)
 
             local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
